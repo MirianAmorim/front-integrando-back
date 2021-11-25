@@ -1,0 +1,15 @@
+.home {
+  flex: 1;
+}
+
+body{
+  background-image: url("./bookback.jpeg");
+}
+
+h1{
+  color: white;
+}
+
+footer{
+  color: white;
+}
