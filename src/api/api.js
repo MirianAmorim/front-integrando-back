@@ -1,5 +1,5 @@
 const Api = {
-  apiUrl: 'http://api-blue.herokuapp.com/aluno',
+  apiUrl: 'https://api-blue-escola.herokuapp.com/aluno',
   fetchGetAll: () => fetch(`${Api.apiUrl}/listall`),
   fetchGetById: id => fetch(`${Api.apiUrl + '/listid'}/${id}`),
   fetchPost: (vaga) => {
