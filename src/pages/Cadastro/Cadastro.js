@@ -79,4 +79,4 @@ const Cadastro = (props) => {
   )
 }
 
-export default Cadastro
+export default Cadastro;
