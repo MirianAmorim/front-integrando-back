@@ -12,7 +12,7 @@ const List = () => {
   const getVagas = async () => {
     const response = await Api.fetchGetAll(); // requiscao do tipo GET para api
     const data = await response.json();
-    console.log(data) // API retorna um array com dados
+    console.log(data); // API retorna um array com dados
     setVagas(data); // atualizamos o nosso objeto do estado com o array vindo da api backend
   }
 
